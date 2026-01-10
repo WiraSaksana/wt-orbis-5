@@ -10,7 +10,7 @@ function orbis_customize_register( $wp_customize ) {
 	$wp_customize->add_section(
 		'general',
 		[
-			'title' => __( 'General', 'orbis-4' ),
+			'title' => __( 'General', 'orbis-5' ),
 		] 
 	);
 
@@ -28,7 +28,7 @@ function orbis_customize_register( $wp_customize ) {
 			$wp_customize,
 			'orbis_logo',
 			[
-				'label'    => __( 'Logo', 'orbis-4' ),
+				'label'    => __( 'Logo', 'orbis-5' ),
 				'section'  => 'general',
 				'settings' => 'orbis_logo',
 			] 
@@ -43,13 +43,13 @@ function orbis_customize_register( $wp_customize ) {
 	$colors[] = [
 		'setting' => 'orbis_primary_color',
 		'default' => '#0088cc',
-		'label'   => __( 'Primary color', 'orbis-4' ),
+		'label'   => __( 'Primary color', 'orbis-5' ),
 	];
 
 	$colors[] = [
 		'setting' => 'orbis_secondary_color',
 		'default' => '#f6f6f6',
-		'label'   => __( 'Secondary color', 'orbis-4' ),
+		'label'   => __( 'Secondary color', 'orbis-5' ),
 	];
 
 	foreach ( $colors as $color ) {

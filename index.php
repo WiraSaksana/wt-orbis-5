@@ -11,8 +11,8 @@
 			<thead>
 				<tr>
 					<?php if ( is_search() ) : ?>
-					<th><?php esc_html_e( 'Type', 'orbis-4' ); ?></th><?php endif; ?>
-					<th><?php esc_html_e( 'Title', 'orbis-4' ); ?></th>
+					<th><?php esc_html_e( 'Type', 'orbis-5' ); ?></th><?php endif; ?>
+					<th><?php esc_html_e( 'Title', 'orbis-5' ); ?></th>
 					<th></th>
 				</tr>
 			</thead>

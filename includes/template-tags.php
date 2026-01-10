@@ -109,7 +109,7 @@ function orbis_comment( $comment, $args, $depth ) {
 		case 'trackback':
 			?>
 			<li class="post pingback">
-				<p><?php esc_html_e( 'Pingback:', 'orbis-4' ); ?> <?php comment_author_link(); ?><?php edit_comment_link( __( '(Edit)', 'orbis-4' ), ' ' ); ?></p>
+				<p><?php esc_html_e( 'Pingback:', 'orbis-5' ); ?> <?php comment_author_link(); ?><?php edit_comment_link( __( '(Edit)', 'orbis-5' ), ' ' ); ?></p>
 			<?php
 			break;
 
@@ -123,7 +123,7 @@ function orbis_comment( $comment, $args, $depth ) {
 					<?php
 
 					printf(
-						__( '%s <span class="says">says:</span>', 'orbis-4' ),
+						__( '%s <span class="says">says:</span>', 'orbis-5' ),
 						sprintf( '<cite class="fn">%s</cite>', get_comment_author_link() )
 					);
 
@@ -132,7 +132,7 @@ function orbis_comment( $comment, $args, $depth ) {
 
 				<?php if ( $comment->comment_approved == '0' ) : ?>
 
-					<em class="comment-awaiting-moderation"><?php esc_html_e( 'Your comment is awaiting moderation.', 'orbis-4' ); ?></em><br />
+					<em class="comment-awaiting-moderation"><?php esc_html_e( 'Your comment is awaiting moderation.', 'orbis-5' ); ?></em><br />
 
 				<?php endif; ?>
 
@@ -143,7 +143,7 @@ function orbis_comment( $comment, $args, $depth ) {
 						'<a href="%s">%s</a>',
 						esc_url( get_comment_link( $comment->comment_ID ) ),
 						sprintf(
-							esc_html__( '%1$s at %2$s', 'orbis-4' ),
+							esc_html__( '%1$s at %2$s', 'orbis-5' ),
 							get_comment_date(),
 							get_comment_time()
 						)
@@ -151,7 +151,7 @@ function orbis_comment( $comment, $args, $depth ) {
 
 					echo ' ';
 
-					edit_comment_link( __( '(Edit)', 'orbis-4' ), ' ' );
+					edit_comment_link( __( '(Edit)', 'orbis-5' ), ' ' );
 
 					?>
 				</div>
@@ -186,13 +186,13 @@ function orbis_comment( $comment, $args, $depth ) {
  */
 function orbis_posted_on() {
 	printf(
-		__( '<span class="sep">Posted on </span><a href="%1$s" title="%2$s" rel="bookmark"><time class="entry-date" datetime="%3$s" pubdate>%4$s</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="%5$s" title="%6$s" rel="author">%7$s</a></span></span>', 'orbis-4' ),
+		__( '<span class="sep">Posted on </span><a href="%1$s" title="%2$s" rel="bookmark"><time class="entry-date" datetime="%3$s" pubdate>%4$s</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="%5$s" title="%6$s" rel="author">%7$s</a></span></span>', 'orbis-5' ),
 		esc_url( get_permalink() ),
 		esc_attr( get_the_time() ),
 		esc_attr( get_the_date( 'c' ) ),
 		esc_html( get_the_date() ),
 		esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ),
-		esc_attr( sprintf( __( 'View all posts by %s', 'orbis-4' ), get_the_author() ) ),
+		esc_attr( sprintf( __( 'View all posts by %s', 'orbis-5' ), get_the_author() ) ),
 		get_the_author()
 	);
 }

@@ -136,22 +136,22 @@ if ( $total_deals ) {
 
 		<div class="row">
 			<div class="col-md-3">
-				<p><?php esc_html_e( 'Won deals', 'orbis-4' ); ?></p>
+				<p><?php esc_html_e( 'Won deals', 'orbis-5' ); ?></p>
 				<h1><?php echo esc_html( round( $won_deals, 2 ) ); ?></h1>
 			</div>
 
 			<div class="col-md-3">
-				<p><?php esc_html_e( 'Lost deals', 'orbis-4' ); ?></p>
+				<p><?php esc_html_e( 'Lost deals', 'orbis-5' ); ?></p>
 				<h1><?php echo esc_html( round( $lost_deals, 2 ) ); ?></h1>
 			</div>
 
 			<div class="col-md-3">
-				<p><?php esc_html_e( 'Pending deals', 'orbis-4' ); ?></p>
+				<p><?php esc_html_e( 'Pending deals', 'orbis-5' ); ?></p>
 				<h1><?php echo esc_html( round( $pending_deals, 2 ) ); ?></h1>
 			</div>
 
 			<div class="col-md-3">
-				<p><?php esc_html_e( 'Total amount open', 'orbis-4' ); ?></p>
+				<p><?php esc_html_e( 'Total amount open', 'orbis-5' ); ?></p>
 				<h1>
 					<?php
 					$total_amount = new Money( $total_amount, 'EUR' );

@@ -11,7 +11,7 @@ while ( have_posts() ) :
 				<?php do_action( 'orbis_before_main_content' ); ?>
 
 				<div class="card mb-3">
-					<div class="card-header"><?php esc_html_e( 'Description', 'orbis-4' ); ?></div>
+					<div class="card-header"><?php esc_html_e( 'Description', 'orbis-5' ); ?></div>
 					<div class="card-body">
 
 						<div class="card-text clearfix">

@@ -17,13 +17,13 @@ get_header();
 			<table class="table table-striped table-condense table-hover">
 				<thead>
 					<tr>
-						<th><?php esc_html_e( 'Title', 'orbis-4' ); ?></th>
-						<th><?php esc_html_e( 'URL', 'orbis-4' ); ?></th>
-						<th><?php esc_html_e( 'Required response code', 'orbis-4' ); ?></th>
-						<th><?php esc_html_e( 'Last response code', 'orbis-4' ); ?></th>
-						<th><?php esc_html_e( 'Last response message', 'orbis-4' ); ?></th>
-						<th><?php esc_html_e( 'Last response duration', 'orbis-4' ); ?></th>
-						<th><?php esc_html_e( 'Last time checked', 'orbis-4' ); ?></th>
+						<th><?php esc_html_e( 'Title', 'orbis-5' ); ?></th>
+						<th><?php esc_html_e( 'URL', 'orbis-5' ); ?></th>
+						<th><?php esc_html_e( 'Required response code', 'orbis-5' ); ?></th>
+						<th><?php esc_html_e( 'Last response code', 'orbis-5' ); ?></th>
+						<th><?php esc_html_e( 'Last response message', 'orbis-5' ); ?></th>
+						<th><?php esc_html_e( 'Last response duration', 'orbis-5' ); ?></th>
+						<th><?php esc_html_e( 'Last time checked', 'orbis-5' ); ?></th>
 						<th></th>
 					</tr>
 				</thead>
@@ -83,7 +83,7 @@ get_header();
 								if ( empty( $time ) ) {
 									echo '—';
 								} else {
-									echo esc_html( date_i18n( __( 'd-m-Y H:i', 'orbis-4' ), $time ) );
+									echo esc_html( date_i18n( __( 'd-m-Y H:i', 'orbis-5' ), $time ) );
 								}
 
 								?>

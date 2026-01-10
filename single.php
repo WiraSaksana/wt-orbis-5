@@ -21,20 +21,20 @@ while ( have_posts() ) :
 				<?php do_action( 'orbis_before_side_content' ); ?>
 
 				<div class="card">
-					<div class="card-header"><?php esc_html_e( 'Additional Information', 'orbis-4' ); ?></div>
+					<div class="card-header"><?php esc_html_e( 'Additional Information', 'orbis-5' ); ?></div>
 
 					<div class="card-body">
 						<dl>
-							<dt><?php esc_html_e( 'Posted on', 'orbis-4' ); ?></dt>
+							<dt><?php esc_html_e( 'Posted on', 'orbis-5' ); ?></dt>
 							<dd><?php echo esc_html( get_the_date() ); ?></dd>
 
-							<dt><?php esc_html_e( 'Posted by', 'orbis-4' ); ?></dt>
+							<dt><?php esc_html_e( 'Posted by', 'orbis-5' ); ?></dt>
 							<dd><?php echo esc_html( get_the_author() ); ?></dd>
 
 							<?php if ( null !== get_edit_post_link() ) : ?>
 
-								<dt><?php esc_html_e( 'Actions', 'orbis-4' ); ?></dt>
-								<dd><?php edit_post_link( __( 'Edit', 'orbis-4' ) ); ?></dd>
+								<dt><?php esc_html_e( 'Actions', 'orbis-5' ); ?></dt>
+								<dd><?php edit_post_link( __( 'Edit', 'orbis-5' ) ); ?></dd>
 
 							<?php endif; ?>
 						</dl>

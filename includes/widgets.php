@@ -39,7 +39,7 @@ function orbis_widgets_init() {
 
 	register_sidebar(
 		[
-			'name'          => __( 'Main Widget Area', 'orbis-4' ),
+			'name'          => __( 'Main Widget Area', 'orbis-5' ),
 			'id'            => 'main-widget',
 			'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</aside>',
@@ -50,7 +50,7 @@ function orbis_widgets_init() {
 
 	register_sidebar(
 		[
-			'name'          => __( 'Dashboard Widget Area', 'orbis-4' ),
+			'name'          => __( 'Dashboard Widget Area', 'orbis-5' ),
 			'id'            => 'dashboard-sidebar',
 			'before_widget' => '<div class="col-md-6"><div id="%1$s" class="mb-3 card %2$s">',
 			'after_widget'  => '</div></div></div>',
@@ -61,7 +61,7 @@ function orbis_widgets_init() {
 
 	register_sidebar(
 		[
-			'name'          => __( 'Frontpage Top Widget', 'orbis-4' ),
+			'name'          => __( 'Frontpage Top Widget', 'orbis-5' ),
 			'id'            => 'frontpage-top-widget',
 			'before_widget' => '<div class="col-md-12"><div id="%1$s" class="mb-3 card %2$s">',
 			'after_widget'  => '</div></div></div>',
@@ -72,7 +72,7 @@ function orbis_widgets_init() {
 
 	register_sidebar(
 		[
-			'name'          => __( 'Frontpage Left Widget', 'orbis-4' ),
+			'name'          => __( 'Frontpage Left Widget', 'orbis-5' ),
 			'id'            => 'frontpage-left-widget',
 			'before_widget' => '<div id="%1$s" class="mb-3 card %2$s">',
 			'after_widget'  => '</div>',
@@ -83,7 +83,7 @@ function orbis_widgets_init() {
 
 	register_sidebar(
 		[
-			'name'          => __( 'Frontpage Right Widget', 'orbis-4' ),
+			'name'          => __( 'Frontpage Right Widget', 'orbis-5' ),
 			'id'            => 'frontpage-right-widget',
 			'before_widget' => '<div id="%1$s" class="mb-3 card %2$s">',
 			'after_widget'  => '</div>',
@@ -94,7 +94,7 @@ function orbis_widgets_init() {
 
 	register_sidebar(
 		[
-			'name'          => __( 'Frontpage Bottom Widget', 'orbis-4' ),
+			'name'          => __( 'Frontpage Bottom Widget', 'orbis-5' ),
 			'id'            => 'frontpage-bottom-widget',
 			'before_widget' => '<div class="col-md-4"><div id="%1$s" class="mb-3 card %2$s">',
 			'after_widget'  => '</div></div>',

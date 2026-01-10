@@ -17,7 +17,7 @@ if ( empty( $users ) ) : ?>
 
 	<div class="card-body">
 		<p class="text-muted m-0">
-			<?php esc_html_e( 'No users connected.', 'orbis-4' ); ?>
+			<?php esc_html_e( 'No users connected.', 'orbis-5' ); ?>
 		</p>
 	</div>
 

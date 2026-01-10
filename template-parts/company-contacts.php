@@ -92,7 +92,7 @@ if ( $connected->have_posts() ) : ?>
 
 	<div class="card-body">
 		<p class="text-muted m-0">
-			<?php esc_html_e( 'No persons connected.', 'orbis-4' ); ?>
+			<?php esc_html_e( 'No persons connected.', 'orbis-5' ); ?>
 		</p>
 	</div>
 

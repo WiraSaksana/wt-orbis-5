@@ -11,9 +11,9 @@
 			<table class="table table-striped table-condense table-hover">
 				<thead>
 					<tr>
-						<th><?php esc_html_e( 'Task', 'orbis-4' ); ?></th>
-						<th><?php esc_html_e( 'Assignee', 'orbis-4' ); ?></th>
-						<th><?php esc_html_e( 'Due At', 'orbis-4' ); ?></th>
+						<th><?php esc_html_e( 'Task', 'orbis-5' ); ?></th>
+						<th><?php esc_html_e( 'Assignee', 'orbis-5' ); ?></th>
+						<th><?php esc_html_e( 'Due At', 'orbis-5' ); ?></th>
 						<th></th>
 					</tr>
 				</thead>
@@ -37,7 +37,7 @@
 										printf( 
 											'<a href="%s">%s</a>',
 											esc_attr( get_permalink( $post->project_post_id ) ),
-											esc_html( get_the_title( $post->project_post_id ) )	
+											esc_html( get_the_title( $post->project_post_id ) ) 
 										);
 									}
 
@@ -86,7 +86,7 @@
 											' <span class="badge text-bg-danger">%s</span>',
 											esc_html(
 												sprintf(
-													_n( '%s day', '%s days', $diff->days, 'orbis-4' ),
+													_n( '%s day', '%s days', $diff->days, 'orbis-5' ),
 													number_format_i18n( $diff->days, 0 )
 												)
 											)

@@ -17,9 +17,9 @@ get_header();
 			<table class="table table-striped table-condense table-hover">
 				<thead>
 					<tr>
-						<th><?php esc_html_e( 'Title', 'orbis-4' ); ?></th>
-						<th><?php esc_html_e( 'Price', 'orbis-4' ); ?></th>
-						<th><?php esc_html_e( 'Cost Price', 'orbis-4' ); ?></th>
+						<th><?php esc_html_e( 'Title', 'orbis-5' ); ?></th>
+						<th><?php esc_html_e( 'Price', 'orbis-5' ); ?></th>
+						<th><?php esc_html_e( 'Cost Price', 'orbis-5' ); ?></th>
 						<th></th>
 					</tr>
 				</thead>

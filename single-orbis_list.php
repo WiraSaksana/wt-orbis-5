@@ -33,7 +33,7 @@ while ( have_posts() ) :
 				<?php if ( ! empty( get_the_content() ) ) : ?>
 
 				<div class="card mb-3">
-					<div class="card-header"><?php esc_html_e( 'Description', 'orbis-4' ); ?></div>
+					<div class="card-header"><?php esc_html_e( 'Description', 'orbis-5' ); ?></div>
 					<div class="card-body">
 						<div class="content clearfix">
 							<?php if ( has_post_thumbnail() ) : ?>
@@ -54,7 +54,7 @@ while ( have_posts() ) :
 				<?php endif; ?>
 
 				<div class="card mb-3">
-					<div class="card-header"><?php esc_html_e( 'On the list', 'orbis-4' ); ?></div>
+					<div class="card-header"><?php esc_html_e( 'On the list', 'orbis-5' ); ?></div>
 					<div class="card-body">
 
 						<?php
@@ -73,9 +73,9 @@ while ( have_posts() ) :
 							<table class="table table-striped table-bordered">
 								<thead>
 									<tr>
-										<th scope="col"><?php esc_html_e( 'Name', 'orbis-4' ); ?></th>
-										<th scope="col"><?php esc_html_e( 'Active', 'orbis-4' ); ?></th>
-										<th scope="col"><?php esc_html_e( 'Note', 'orbis-4' ); ?></th>
+										<th scope="col"><?php esc_html_e( 'Name', 'orbis-5' ); ?></th>
+										<th scope="col"><?php esc_html_e( 'Active', 'orbis-5' ); ?></th>
+										<th scope="col"><?php esc_html_e( 'Note', 'orbis-5' ); ?></th>
 									</tr>
 								</thead>
 
@@ -97,13 +97,13 @@ while ( have_posts() ) :
 
 												switch ( $active ) {
 													case 'yes':
-														esc_html_e( 'Yes', 'orbis-4' );
+														esc_html_e( 'Yes', 'orbis-5' );
 														break;
 													case 'no':
-														esc_html_e( 'No', 'orbis-4' );
+														esc_html_e( 'No', 'orbis-5' );
 														break;
 													case 'maybe':
-														esc_html_e( 'Maybe', 'orbis-4' );
+														esc_html_e( 'Maybe', 'orbis-5' );
 														break;
 												}
 
@@ -126,7 +126,7 @@ while ( have_posts() ) :
 				</div>
 
 				<div class="card mb-3">
-					<div class="card-header"><?php esc_html_e( 'Not on the list', 'orbis-4' ); ?></div>
+					<div class="card-header"><?php esc_html_e( 'Not on the list', 'orbis-5' ); ?></div>
 					<div class="card-body">
 
 						<?php
@@ -153,8 +153,8 @@ while ( have_posts() ) :
 							<table class="table table-striped table-bordered">
 								<thead>
 									<tr>
-										<th scope="col"><?php esc_html_e( 'Name', 'orbis-4' ); ?></th>
-										<th scope="col"><?php esc_html_e( 'Action', 'orbis-4' ); ?></th>
+										<th scope="col"><?php esc_html_e( 'Name', 'orbis-5' ); ?></th>
+										<th scope="col"><?php esc_html_e( 'Action', 'orbis-5' ); ?></th>
 									</tr>
 								</thead>
 
@@ -176,12 +176,12 @@ while ( have_posts() ) :
 													'yes' => [
 														'class' => 'success',
 														'icon'  => 'check',
-														'label' => __( 'Yes', 'orbis-4' ),
+														'label' => __( 'Yes', 'orbis-5' ),
 													],
 													'no'  => [
 														'class' => 'danger',
 														'icon'  => 'times',
-														'label' => __( 'No', 'orbis-4' ),
+														'label' => __( 'No', 'orbis-5' ),
 													],
 												];
 
@@ -221,7 +221,7 @@ while ( have_posts() ) :
 
 						<div class="content">
 							<p class="alt">
-								<?php esc_html_e( 'Nothing to show here.', 'orbis-4' ); ?>
+								<?php esc_html_e( 'Nothing to show here.', 'orbis-5' ); ?>
 							</p>
 						</div>
 
@@ -241,21 +241,21 @@ while ( have_posts() ) :
 				<?php do_action( 'orbis_before_side_content' ); ?>
 
 				<div class="card">
-					<div class="card-header"><?php esc_html_e( 'Additional Information', 'orbis-4' ); ?></div>
+					<div class="card-header"><?php esc_html_e( 'Additional Information', 'orbis-5' ); ?></div>
 					<div class="card-body">
 
 						<div class="content">
 							<dl>
-								<dt><?php esc_html_e( 'Posted on', 'orbis-4' ); ?></dt>
+								<dt><?php esc_html_e( 'Posted on', 'orbis-5' ); ?></dt>
 								<dd><?php echo esc_html( get_the_date() ); ?></dd>
 
-								<dt><?php esc_html_e( 'Posted by', 'orbis-4' ); ?></dt>
+								<dt><?php esc_html_e( 'Posted by', 'orbis-5' ); ?></dt>
 								<dd><?php echo esc_html( get_the_author() ); ?></dd>
 
 								<?php if ( null !== get_edit_post_link() ) : ?>
 
-									<dt><?php esc_html_e( 'Actions', 'orbis-4' ); ?></dt>
-									<dd><?php edit_post_link( __( 'Edit', 'orbis-4' ) ); ?></dd>
+									<dt><?php esc_html_e( 'Actions', 'orbis-5' ); ?></dt>
+									<dd><?php edit_post_link( __( 'Edit', 'orbis-5' ) ); ?></dd>
 
 								<?php endif; ?>
 							</dl>

@@ -1,5 +1,5 @@
 <div class="card mt-3">
-	<div class="card-header"><?php esc_html_e( 'Involved Persons', 'orbis-4' ); ?></div>
+	<div class="card-header"><?php esc_html_e( 'Involved Persons', 'orbis-5' ); ?></div>
 
 	<?php
 
@@ -62,7 +62,7 @@
 		<div class="card-body">
 
 			<p class="text-muted m-0">
-				<?php esc_html_e( 'No persons involved.', 'orbis-4' ); ?>
+				<?php esc_html_e( 'No persons involved.', 'orbis-5' ); ?>
 			</p>
 
 		</div>

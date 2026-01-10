@@ -4,7 +4,7 @@
 
 		$statuses = orbis_deal_get_statuses();
 
-		array_unshift( $statuses, __( '— Select Status —', 'orbis-4' ) );
+		array_unshift( $statuses, __( '— Select Status —', 'orbis-5' ) );
 
 		$status = filter_input( INPUT_GET, 'orbis_deal_status', FILTER_SANITIZE_STRING );
 
@@ -18,5 +18,5 @@
 		}
 
 		?>
-	</select> <button class="btn btn-secondary" type="submit"><?php esc_html_e( 'Filter', 'orbis-4' ); ?></button></span>
+	</select> <button class="btn btn-secondary" type="submit"><?php esc_html_e( 'Filter', 'orbis-5' ); ?></button></span>
 </div>

@@ -23,7 +23,7 @@ $responses = $wpdb->get_results(
 );
 
 $table_title = sprintf(
-	__( 'Last %d Responses', 'orbis-4' ),
+	__( 'Last %d Responses', 'orbis-5' ),
 	$amount
 );
 ?>
@@ -43,11 +43,11 @@ $table_title = sprintf(
 		<table class="table table-striped mb-0">
 			<thead>
 				<tr>
-					<th class="border-top-0" scope="col"><?php esc_html_e( 'Date', 'orbis-4' ); ?></th>
-					<th class="border-top-0" scope="col"><?php esc_html_e( 'Duration', 'orbis-4' ); ?></th>
-					<th class="border-top-0" scope="col"><?php esc_html_e( 'Code', 'orbis-4' ); ?></th>
-					<th class="border-top-0" scope="col"><?php esc_html_e( 'Message', 'orbis-4' ); ?></th>
-					<th class="border-top-0" scope="col"><?php esc_html_e( 'Content Length', 'orbis-4' ); ?></th>
+					<th class="border-top-0" scope="col"><?php esc_html_e( 'Date', 'orbis-5' ); ?></th>
+					<th class="border-top-0" scope="col"><?php esc_html_e( 'Duration', 'orbis-5' ); ?></th>
+					<th class="border-top-0" scope="col"><?php esc_html_e( 'Code', 'orbis-5' ); ?></th>
+					<th class="border-top-0" scope="col"><?php esc_html_e( 'Message', 'orbis-5' ); ?></th>
+					<th class="border-top-0" scope="col"><?php esc_html_e( 'Content Length', 'orbis-5' ); ?></th>
 				</tr>
 			</thead>
 

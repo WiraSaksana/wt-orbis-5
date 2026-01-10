@@ -16,9 +16,9 @@ if ( $query->have_posts() ) : ?>
 		<table class="table table-striped mb-0">
 			<thead>
 				<tr>
-					<th class="border-top-0"><?php esc_html_e( 'Project', 'orbis-4' ); ?></th>
-					<th class="border-top-0"><?php esc_html_e( 'Price', 'orbis-4' ); ?></th>
-					<th class="border-top-0"><?php esc_html_e( 'Time', 'orbis-4' ); ?></th>
+					<th class="border-top-0"><?php esc_html_e( 'Project', 'orbis-5' ); ?></th>
+					<th class="border-top-0"><?php esc_html_e( 'Price', 'orbis-5' ); ?></th>
+					<th class="border-top-0"><?php esc_html_e( 'Time', 'orbis-5' ); ?></th>
 				</tr>
 			</thead>
 
@@ -77,7 +77,7 @@ if ( $query->have_posts() ) : ?>
 
 	<div class="card-body">
 		<p class="text-muted m-0">
-			<?php esc_html_e( 'No projects found.', 'orbis-4' ); ?>
+			<?php esc_html_e( 'No projects found.', 'orbis-5' ); ?>
 		</p>
 	</div>
 

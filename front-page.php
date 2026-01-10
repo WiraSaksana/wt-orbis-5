@@ -39,7 +39,7 @@
 				[
 					'post_type_name' => 'orbis_company',
 					'number'         => 8,
-					'title'          => __( 'Companies', 'orbis-4' ),
+					'title'          => __( 'Companies', 'orbis-5' ),
 				],
 				[
 					'before_widget' => '<div class="col-md-4"><div class="card">',
@@ -56,7 +56,7 @@
 				[
 					'post_type_name' => 'orbis_project',
 					'number'         => 8,
-					'title'          => __( 'Projects', 'orbis-4' ),
+					'title'          => __( 'Projects', 'orbis-5' ),
 				],
 				[
 					'before_widget' => '<div class="col-md-4"><div class="card">',
@@ -73,7 +73,7 @@
 				[
 					'post_type_name' => 'orbis_person',
 					'number'         => 8,
-					'title'          => __( 'Persons', 'orbis-4' ),
+					'title'          => __( 'Persons', 'orbis-5' ),
 				],
 				[
 					'before_widget' => '<div class="col-md-4"><div class="card">',

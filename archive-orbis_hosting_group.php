@@ -11,10 +11,10 @@
 			<table class="table table-striped table-condense table-hover">
 				<thead>
 					<tr>
-						<th><?php esc_html_e( 'Title', 'orbis-4' ); ?></th>
-						<th><?php esc_html_e( 'IP address', 'orbis-4' ); ?></th>
-						<th><?php esc_html_e( 'Hostname', 'orbis-4' ); ?></th>
-						<th><?php esc_html_e( 'Hostname Provider', 'orbis-4' ); ?></th>
+						<th><?php esc_html_e( 'Title', 'orbis-5' ); ?></th>
+						<th><?php esc_html_e( 'IP address', 'orbis-5' ); ?></th>
+						<th><?php esc_html_e( 'Hostname', 'orbis-5' ); ?></th>
+						<th><?php esc_html_e( 'Hostname Provider', 'orbis-5' ); ?></th>
 						<th></th>
 					</tr>
 				</thead>

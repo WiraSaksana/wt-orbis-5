@@ -1,7 +1,7 @@
 <?php if ( function_exists( 'p2p_register_connection_type' ) ) : ?>
 
 	<div class="card mb-3">
-		<div class="card-header"><?php esc_html_e( 'Connected persons', 'orbis-4' ); ?></div>
+		<div class="card-header"><?php esc_html_e( 'Connected persons', 'orbis-5' ); ?></div>
 
 		<?php
 
@@ -93,7 +93,7 @@
 
 			<div class="card-body">
 				<p class="text-muted m-0">
-					<?php esc_html_e( 'No persons connected.', 'orbis-4' ); ?>
+					<?php esc_html_e( 'No persons connected.', 'orbis-5' ); ?>
 				</p>
 			</div>
 

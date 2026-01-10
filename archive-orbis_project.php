@@ -16,17 +16,17 @@ get_header();
 				<thead>
 					<tr>
 						<?php if ( orbis_plugin_activated( 'companies' ) ) : ?>
-							<th><?php esc_html_e( 'Client', 'orbis-4' ); ?></th>
+							<th><?php esc_html_e( 'Client', 'orbis-5' ); ?></th>
 						<?php endif ?>
-						<th><?php esc_html_e( 'Project', 'orbis-4' ); ?></th>
+						<th><?php esc_html_e( 'Project', 'orbis-5' ); ?></th>
 
 						<?php if ( current_user_can( 'read_orbis_project_price', get_the_ID() ) ) : ?>
 						
-							<th><?php esc_html_e( 'Price', 'orbis-4' ); ?></th>
+							<th><?php esc_html_e( 'Price', 'orbis-5' ); ?></th>
 
 						<?php endif; ?>
 
-						<th><?php esc_html_e( 'Time', 'orbis-4' ); ?></th>
+						<th><?php esc_html_e( 'Time', 'orbis-5' ); ?></th>
 						<th></th>
 					</tr>
 				</thead>
@@ -92,7 +92,8 @@ get_header();
 
 										<span class="<?php echo esc_attr( implode( ' ', $classes ) ); ?>"><?php orbis_project_the_logged_time(); ?></span>
 
-									<?php endif;
+										<?php 
+									endif;
 								}
 
 								?>

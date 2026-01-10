@@ -5,7 +5,7 @@
  */
 class Orbis_News_Widget extends WP_Widget {
 	public function __construct() {
-		parent::__construct( 'orbis-news', __( 'Orbis - News', 'orbis-4' ) );
+		parent::__construct( 'orbis-news', __( 'Orbis - News', 'orbis-5' ) );
 	}
 
 	public function widget( $args, $instance ) {
@@ -62,7 +62,7 @@ class Orbis_News_Widget extends WP_Widget {
 
 						<div class="col-md-6">
 							<div class="content">
-								<h4><?php esc_html_e( 'More news', 'orbis-4' ); ?></h4>
+								<h4><?php esc_html_e( 'More news', 'orbis-5' ); ?></h4>
 
 								<ul class="no-disc">
 									<?php
@@ -107,7 +107,7 @@ class Orbis_News_Widget extends WP_Widget {
 
 		<p>
 			<label for="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>">
-				<?php esc_html_e( 'Title:', 'orbis-4' ); ?>
+				<?php esc_html_e( 'Title:', 'orbis-5' ); ?>
 			</label>
 
 			<input class="widefat" id="<?php echo esc_attr( $this->get_field_id( 'title' ) ); ?>" name="<?php echo esc_attr( $this->get_field_name( 'title' ) ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>" />

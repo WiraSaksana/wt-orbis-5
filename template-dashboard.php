@@ -13,7 +13,7 @@ while ( have_posts() ) :
 	<?php the_content(); ?>
 
 	<div class="dashboard-loader">
-		<?php esc_html_e( 'Loading…', 'orbis-4' ); ?>
+		<?php esc_html_e( 'Loading…', 'orbis-5' ); ?>
 	</div>
 
 	<div id="dashboard-content-holder">

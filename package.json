@@ -32,9 +32,9 @@
 	},
 	"dependencies": {
 		"@fortawesome/fontawesome-free": "^5.12.0",
-		"bootstrap": "^5.2.3",
+		"@popperjs/core": "^2.11.8",
+		"bootstrap": "^5.3.8",
 		"jquery.flot": "^0.8.3",
-		"popper.js": "^1.16.0",
 		"tether": "^1.4.7"
 	},
 	"devDependencies": {
@@ -44,11 +44,9 @@
 	},
 	"scripts": {
 		"copy": "npm-run-all --aggregate-output --parallel copy-*",
-		"copy-bootstrap": "cp -r node_modules/bootstrap/dist/ assets/bootstrap/",
+		"copy-bootstrap": "cp -r node_modules/popper.js/dist/umd/ assets/popper/",
 		"copy-fontawesome-css": "cp -r node_modules/@fortawesome/fontawesome-free/css/ assets/fontawesome/css/",
 		"copy-fontawesome-webfonts": "cp -r node_modules/@fortawesome/fontawesome-free/webfonts/ assets/fontawesome/webfonts/",
-		"copy-bootstrap": "cp -r node_modules/tether/dist/ assets/tether/",
-		"copy-bootstrap": "cp -r node_modules/popper.js/dist/umd/ assets/popper/",
 		"copy-angular": "cp node_modules/jquery.flot/jquery.flot.js node_modules/jquery.flot/jquery.flot.time.js assets/flot/",
 		"lint-pkg-json": "wp-scripts lint-pkg-json"
 	}

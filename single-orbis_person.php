@@ -8,7 +8,7 @@ while ( have_posts() ) :
 	<div class="row">
 		<div class="col-md-8">
 			<div class="card with-cols clearfix mb-3">
-				<div class="card-header"><?php esc_html_e( 'About this contact', 'orbis-4' ); ?></div>
+				<div class="card-header"><?php esc_html_e( 'About this contact', 'orbis-5' ); ?></div>
 
 				<div class="card-body">
 					<div class="row">
@@ -44,7 +44,7 @@ while ( have_posts() ) :
 									if ( ! empty( $data ) ) :
 										?>
 
-										<dt><?php esc_html_e( 'Company', 'orbis-4' ); ?></dt>
+										<dt><?php esc_html_e( 'Company', 'orbis-5' ); ?></dt>
 										<dd>
 											<?php echo esc_html( implode( ', ', $data ) ); ?>
 										</dd>
@@ -53,15 +53,15 @@ while ( have_posts() ) :
 
 									<?php if ( get_post_meta( $post->ID, '_orbis_phone_number', true ) ) : ?>
 
-										<dt><?php esc_html_e( 'Phone number', 'orbis-4' ); ?></dt>
-										<dd><a href="tel:<?php echo esc_attr( get_post_meta( $post->ID, '_orbis_phone_number', true ) ); ?>" class="anchor-tooltip" title="<?php esc_attr_e( 'Call this number', 'orbis-4' ); ?>"><?php echo esc_html( get_post_meta( $post->ID, '_orbis_phone_number', true ) ); ?></a></dd>
+										<dt><?php esc_html_e( 'Phone number', 'orbis-5' ); ?></dt>
+										<dd><a href="tel:<?php echo esc_attr( get_post_meta( $post->ID, '_orbis_phone_number', true ) ); ?>" class="anchor-tooltip" title="<?php esc_attr_e( 'Call this number', 'orbis-5' ); ?>"><?php echo esc_html( get_post_meta( $post->ID, '_orbis_phone_number', true ) ); ?></a></dd>
 
 									<?php endif; ?>
 
 									<?php if ( get_post_meta( $post->ID, '_orbis_mobile_number', true ) ) : ?>
 
-										<dt><?php esc_html_e( 'Mobile number', 'orbis-4' ); ?></dt>
-										<dd><a href="tel:<?php echo esc_attr( get_post_meta( $post->ID, '_orbis_mobile_number', true ) ); ?>" class="anchor-tooltip" title="<?php esc_attr_e( 'Call this number', 'orbis-4' ); ?>"><?php echo esc_html( get_post_meta( $post->ID, '_orbis_mobile_number', true ) ); ?></a></dd>
+										<dt><?php esc_html_e( 'Mobile number', 'orbis-5' ); ?></dt>
+										<dd><a href="tel:<?php echo esc_attr( get_post_meta( $post->ID, '_orbis_mobile_number', true ) ); ?>" class="anchor-tooltip" title="<?php esc_attr_e( 'Call this number', 'orbis-5' ); ?>"><?php echo esc_html( get_post_meta( $post->ID, '_orbis_mobile_number', true ) ); ?></a></dd>
 
 									<?php endif; ?>
 
@@ -72,7 +72,7 @@ while ( have_posts() ) :
 									if ( ! empty( $email ) ) :
 										?>
 
-										<dt><?php esc_html_e( 'E-mail address', 'orbis-4' ); ?></dt>
+										<dt><?php esc_html_e( 'E-mail address', 'orbis-5' ); ?></dt>
 										<dd>
 											<a href="mailto:<?php echo esc_attr( $email ); ?>"><?php echo esc_html( $email ); ?></a>
 										</dd>
@@ -86,7 +86,7 @@ while ( have_posts() ) :
 									if ( ! empty( $gender ) ) :
 										?>
 
-										<dt><?php esc_html_e( 'Gender', 'orbis-4' ); ?></dt>
+										<dt><?php esc_html_e( 'Gender', 'orbis-5' ); ?></dt>
 										<dd>
 											<?php echo esc_html( $gender->name ); ?>
 										</dd>
@@ -100,7 +100,7 @@ while ( have_posts() ) :
 									if ( ! empty( $address ) ) :
 										?>
 
-										<dt><?php esc_html_e( 'Address', 'orbis-4' ); ?></dt>
+										<dt><?php esc_html_e( 'Address', 'orbis-5' ); ?></dt>
 										<dd>
 											<?php echo nl2br( esc_html( $address ) ); ?>
 										</dd>
@@ -114,7 +114,7 @@ while ( have_posts() ) :
 									if ( ! empty( $iban ) ) :
 										?>
 
-										<dt><?php esc_html_e( 'IBAN Number', 'orbis-4' ); ?></dt>
+										<dt><?php esc_html_e( 'IBAN Number', 'orbis-5' ); ?></dt>
 										<dd>
 											<?php echo esc_attr( get_post_meta( $post->ID, '_orbis_iban', true ) ); ?>
 										</dd>
@@ -128,12 +128,12 @@ while ( have_posts() ) :
 									if ( $birth_date ) :
 										?>
 
-										<dt><?php esc_html_e( 'Birth Date', 'orbis-4' ); ?></dt>
+										<dt><?php esc_html_e( 'Birth Date', 'orbis-5' ); ?></dt>
 										<dd>
-											<?php echo esc_html( date_i18n( __( 'j F Y', 'orbis-4' ), $birth_date->getTimestamp() ) ); ?>
+											<?php echo esc_html( date_i18n( __( 'j F Y', 'orbis-5' ), $birth_date->getTimestamp() ) ); ?>
 										</dd>
 
-										<dt><?php esc_html_e( 'Age', 'orbis-4' ); ?></dt>
+										<dt><?php esc_html_e( 'Age', 'orbis-5' ); ?></dt>
 										<dd>
 											<?php echo esc_html( $contact->get_age() ); ?>
 										</dd>
@@ -142,21 +142,21 @@ while ( have_posts() ) :
 
 									<?php if ( has_term( null, 'orbis_person_category' ) ) : ?>
 
-										<dt><?php esc_html_e( 'Categories', 'orbis-4' ); ?></dt>
+										<dt><?php esc_html_e( 'Categories', 'orbis-5' ); ?></dt>
 										<dd>
 											<?php the_terms( get_the_ID(), 'orbis_person_category' ); ?>
 										</dd>
 
 									<?php endif; ?>
 
-									<dt><?php esc_html_e( 'vCard', 'orbis-4' ); ?></dt>
+									<dt><?php esc_html_e( 'vCard', 'orbis-5' ); ?></dt>
 									<dd>
 										<?php
 
 										printf(
 											'<a href="%s">%s</a>',
 											esc_attr( get_permalink() . 'vcard/' ),
-											esc_html__( 'Download vCard', 'orbis-4' )
+											esc_html__( 'Download vCard', 'orbis-5' )
 										);
 
 										?>
@@ -164,7 +164,7 @@ while ( have_posts() ) :
 
 									<?php if ( get_post_meta( $post->ID, '_orbis_twitter', true ) || get_post_meta( $post->ID, '_orbis_facebook', true ) || get_post_meta( $post->ID, '_orbis_linkedin', true ) ) : ?>
 
-										<dt><?php esc_html_e( 'Social media', 'orbis-4' ); ?></dt>
+										<dt><?php esc_html_e( 'Social media', 'orbis-5' ); ?></dt>
 										<dd>
 											<ul class="social clearfix">
 												<?php if ( get_post_meta( $post->ID, '_orbis_twitter', true ) ) : ?>
@@ -174,7 +174,7 @@ while ( have_posts() ) :
 														<a href="<?php echo esc_attr( $twitter_url ); ?>">
 															<i class="fab fa-twitter"></i>
 
-															<span class="sr-only"><?php esc_html_e( 'Twitter', 'orbis-4' ); ?></span>
+															<span class="sr-only"><?php esc_html_e( 'Twitter', 'orbis-5' ); ?></span>
 														</a>
 													</li>
 
@@ -187,7 +187,7 @@ while ( have_posts() ) :
 														<a href="<?php echo esc_attr( $facebook_url ); ?>">
 															<i class="fab fa-facebook"></i>
 
-															<span class="sr-only"><?php esc_html_e( 'Facebook', 'orbis-4' ); ?></span>
+															<span class="sr-only"><?php esc_html_e( 'Facebook', 'orbis-5' ); ?></span>
 														</a>
 													</li>
 
@@ -200,7 +200,7 @@ while ( have_posts() ) :
 														<a href="<?php echo esc_attr( $linkedin_url ); ?>">
 															<i class="fab fa-linkedin"></i>
 
-															<span class="sr-only"><?php esc_html_e( 'LinkedIn', 'orbis-4' ); ?></span>
+															<span class="sr-only"><?php esc_html_e( 'LinkedIn', 'orbis-5' ); ?></span>
 														</a>
 													</li>
 
@@ -232,20 +232,20 @@ while ( have_posts() ) :
 			<?php endif; ?>
 
 			<div class="card mb-3">
-				<div class="card-header"><?php esc_html_e( 'Additional information', 'orbis-4' ); ?></div>
+				<div class="card-header"><?php esc_html_e( 'Additional information', 'orbis-5' ); ?></div>
 
 				<div class="card-body">
 					<dl>
-						<dt><?php esc_html_e( 'Posted on', 'orbis-4' ); ?></dt>
+						<dt><?php esc_html_e( 'Posted on', 'orbis-5' ); ?></dt>
 						<dd><?php echo esc_html( get_the_date() ); ?></dd>
 
-						<dt><?php esc_html_e( 'Posted by', 'orbis-4' ); ?></dt>
+						<dt><?php esc_html_e( 'Posted by', 'orbis-5' ); ?></dt>
 						<dd><?php echo esc_html( get_the_author() ); ?></dd>
 
 						<?php if ( null !== get_edit_post_link() ) : ?>
 
-							<dt><?php esc_html_e( 'Actions', 'orbis-4' ); ?></dt>
-							<dd><?php edit_post_link( __( 'Edit', 'orbis-4' ) ); ?></dd>
+							<dt><?php esc_html_e( 'Actions', 'orbis-5' ); ?></dt>
+							<dd><?php edit_post_link( __( 'Edit', 'orbis-5' ) ); ?></dd>
 
 						<?php endif; ?>
 					</dl>

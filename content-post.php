@@ -2,7 +2,7 @@
 	<div class="col-md-8">
 		<div class="panel">
 			<header>
-				<h3><?php esc_html_e( 'News', 'orbis-4' ); ?></h3>
+				<h3><?php esc_html_e( 'News', 'orbis-5' ); ?></h3>
 			</header>
 
 			<?php if ( have_posts() ) : ?>
@@ -15,7 +15,7 @@
 					<article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?>>
 						<div class="content">
 							<h2 class="entry-title">
-								<a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'orbis-4' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a>
+								<a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'orbis-5' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a>
 							</h2>
 
 							<div class="entry-meta">
@@ -31,7 +31,7 @@
 
 								<?php endif; ?>
 
-								<?php the_content( __( 'Continue reading →', 'orbis-4' ) ); ?>
+								<?php the_content( __( 'Continue reading →', 'orbis-5' ) ); ?>
 							</div>
 
 							<div class="entry-meta">
@@ -41,7 +41,7 @@
 
 									<?php
 
-									$categories_list = get_the_category_list( __( ',  ', 'orbis-4' ) );
+									$categories_list = get_the_category_list( __( ',  ', 'orbis-5' ) );
 
 									if ( $categories_list ) :
 										?>
@@ -50,7 +50,7 @@
 											<?php
 
 											printf(
-												esc_html__( '<span class="%1$s">Posted in</span> %2$s', 'orbis-4' ),
+												esc_html__( '<span class="%1$s">Posted in</span> %2$s', 'orbis-5' ),
 												'entry-utility-prep entry-utility-prep-cat-links',
 												esc_html( $categories_list )
 											);
@@ -64,7 +64,7 @@
 
 									<?php
 
-									$tags_list = get_the_tag_list( '', __( ',  ', 'orbis-4' ) );
+									$tags_list = get_the_tag_list( '', __( ',  ', 'orbis-5' ) );
 
 									if ( $tags_list ) :
 										if ( $show_sep ) :
@@ -77,7 +77,7 @@
 										<span class="tag-links">
 											<?php
 
-											printf( esc_html__( '<span class="%1$s">Tagged</span> %2$s', 'orbis-4' ), 'entry-utility-prep entry-utility-prep-tag-links', esc_html( $tags_list ) );
+											printf( esc_html__( '<span class="%1$s">Tagged</span> %2$s', 'orbis-5' ), 'entry-utility-prep entry-utility-prep-tag-links', esc_html( $tags_list ) );
 
 											$show_sep = true;
 
@@ -99,7 +99,7 @@
 									<?php endif; ?>
 
 									<span class="comments-link">
-										<?php comments_popup_link( __( 'Leave a reply', 'orbis-4' ), __( '1 reply', 'orbis-4' ), __( '% replies', 'orbis-4' ) ); ?>
+										<?php comments_popup_link( __( 'Leave a reply', 'orbis-5' ), __( '1 reply', 'orbis-5' ), __( '% replies', 'orbis-5' ) ); ?>
 									</span>
 
 								<?php endif; ?>
@@ -113,7 +113,7 @@
 
 				<div class="content">
 					<p class="alt">
-						<?php esc_html_e( 'No results found.', 'orbis-4' ); ?>
+						<?php esc_html_e( 'No results found.', 'orbis-5' ); ?>
 					</p>
 				</div>
 
@@ -126,7 +126,7 @@
 	<div class="col-md-4">
 		<div class="panel">
 			<header>
-				<h3><?php esc_html_e( 'Categories', 'orbis-4' ); ?></h3>
+				<h3><?php esc_html_e( 'Categories', 'orbis-5' ); ?></h3>
 			</header>
 
 			<ul class="list">
@@ -152,7 +152,7 @@
 
 			<div class="card">
 				<div class="card-body">
-					<h3 class="card-title"><?php esc_html_e( 'Tags', 'orbis-4' ); ?></h3>
+					<h3 class="card-title"><?php esc_html_e( 'Tags', 'orbis-5' ); ?></h3>
 
 					<div class="content">
 						<?php

@@ -36,7 +36,7 @@ class Orbis_Theme {
 		add_editor_style( '/css/editor-style' . $min . '.css' );
 
 		/* Text Domain */
-		load_theme_textdomain( 'orbis-4', get_template_directory() . '/languages' );
+		load_theme_textdomain( 'orbis-5', get_template_directory() . '/languages' );
 		load_theme_textdomain( 'pronamic-money', get_template_directory() . '/vendor/pronamic/wp-money/languages/' );
 
 		/* Theme support */
@@ -49,7 +49,7 @@ class Orbis_Theme {
 		/* Navigation menu's */
 		register_nav_menus(
 			[
-				'primary' => __( 'Primary Menu', 'orbis-4' ),
+				'primary' => __( 'Primary Menu', 'orbis-5' ),
 			] 
 		);
 

@@ -10,7 +10,7 @@ if ( has_post_thumbnail() || ! empty( $content ) ) :
 
 	$sections[] = [
 		'id'            => 'description',
-		'name'          => __( 'Description', 'orbis-4' ),
+		'name'          => __( 'Description', 'orbis-5' ),
 		'template_part' => 'templates/section-description',
 	];
 

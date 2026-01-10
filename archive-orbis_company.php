@@ -11,10 +11,10 @@
 			<table class="table table-striped table-condense table-hover">
 				<thead>
 					<tr>
-						<th><?php esc_html_e( 'Name', 'orbis-4' ); ?></th>
-						<th><?php esc_html_e( 'Address', 'orbis-4' ); ?></th>
-						<th><?php esc_html_e( 'Online', 'orbis-4' ); ?></th>
-						<th><?php esc_html_e( 'Author', 'orbis-4' ); ?></th>
+						<th><?php esc_html_e( 'Name', 'orbis-5' ); ?></th>
+						<th><?php esc_html_e( 'Address', 'orbis-5' ); ?></th>
+						<th><?php esc_html_e( 'Online', 'orbis-5' ); ?></th>
+						<th><?php esc_html_e( 'Author', 'orbis-5' ); ?></th>
 						<th></th>
 					</tr>
 				</thead>
